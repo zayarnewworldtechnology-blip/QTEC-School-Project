@@ -1,0 +1,26 @@
+# Import Pygame Module
+
+import pygame
+from pygame.locals import *
+
+# initialize the Pygame
+pygame.init()
+
+#-------------Creating Game Window----------------
+screen_width = 864
+screen_height = 936
+
+screen = pygame.display.set_mode((screen_width, screen_height))
+pygame.dispaly set_caption('Flappy Bird')
+
+#--------------Creating Game loop-----------------
+run = True
+while run:
+
+  for event in pygame.event.get():
+    if event.type == pygame.QUIT:
+        run = False
+
+
+
+pygame.quit()
