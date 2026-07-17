@@ -1,4 +1,14 @@
-
+#before while = True  set the backgroung image
 
 
 # load images
+bg = pygame.image.load('/img/bg.png')
+
+#after while loop before for loop
+    screen.blit(bg, (0,0))
+(Run and Test nothing happens)
+
+
+#after for loop 
+    pygame.display.update()
+
