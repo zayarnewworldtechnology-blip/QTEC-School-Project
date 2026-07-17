@@ -5,7 +5,10 @@
 bg = pygame.image.load('/img/bg.png')
 
 #after while loop before for loop
+
+    #draw background
     screen.blit(bg, (0,0))
+
 (Run and Test nothing happens)
 
 
